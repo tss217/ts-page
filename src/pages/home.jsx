@@ -1,5 +1,6 @@
 import "../App.css"
 import { Link } from "react-router-dom"
+import Menu from "../components/menu"
 
 export default function Home() {
     return (
@@ -7,12 +8,7 @@ export default function Home() {
         <div className="main">
             <div className="containerOne">
 
-                <nav className="menu">
-                    <Link to="/">HOME</Link>
-                    <a href="#habilidades">HABILIDADES</a>
-                    <Link to="/">SOBRE</Link>
-                </nav>
-
+                <Menu/>
                 <main className="box">
                     <div className="titulo">
                         <h1>THIAGO</h1>
@@ -23,7 +19,7 @@ export default function Home() {
                     <div className="subtitulo">
                         <p>
                             REPOSITORIOS NO <a href="https://github.com/tss217">GITHUB:60<br /></a>
-                            CONEXÃO NO LINDIN: 600
+                            CONEXÕES NO LINDIN: 600
                         </p>
 
                         <p>
