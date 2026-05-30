@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #dcdcdc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containerOne{
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 20px;
+
+
+    background-image: url("./assets/THIAGO.jpg");
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.test{
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 20px;
+
+    border: 6px solid red;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+
+.menu{
+
+    width: 100%;
+    height: 70px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+
+    font-family: "Limelight", sans-serif;
+}
+
+.menu a{
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 25px;
+}
+
+.box{
+    width: 800px;
+    height: 700px;
+
+    margin: 5px auto;
+    padding: 5px;
+
+
+
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.titulo{
+
+    width: 100%;
+    height: 300px;
+   
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Limelight", sans-serif;
+
+    color: yellow;
+
+    margin-bottom: 0px;
+}
+
+.titulo h1{
+
+    font-size: 165px;
+    line-height: 1;
+}
+
+.titulo h2{
+
+    font-size: 74px;
+    line-height: 1;
+}
+
+.subtitulo{
+
+    width: 100%;
+    height: 260px;
+
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+
+    align-items: flex-end;
+
+    padding-right: 40px;
+
+
+    text-align: left;
+
+    font-family: "Elms Sans", sans-serif;
+    margin-top: 0px;
+    gap: 10PX;
+
+    color: white;
+
+    margin-right: 100px;
+}
+
+.subtitulo p:first-child{
+
+
+    font-size: 23px;
+
+    line-height: 1.5;
+    width: fit-content;
+
+    margin: 0;
+}
+  
+
+.subtitulo p:nth-child(2){
+
+    font-size: 23px;
+
+    line-height: 1.5;
+    width: fit-content;
+
+    margin: 0;
+
+}
+
+
+.subtitulo p:last-child{
+
+    font-size: 23px;
+
+    line-height: 1.5;
+
+    width: fit-content;
+
+    margin: 0;
+    margin-right: 100px;
+}
