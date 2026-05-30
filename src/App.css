@@ -18,8 +18,10 @@ body{
 
     padding: 20px;
 
-
     background-image: url("./assets/THIAGO.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
     display: flex;
     flex-direction: column;
@@ -38,8 +40,6 @@ body{
     flex-direction: column;
     gap: 30px;
 }
-
-
 
 .menu{
 
@@ -66,29 +66,26 @@ body{
 }
 
 .box{
-    width: 800px;
+
+    width: 90%;
+    max-width: 800px;
+
     height: 700px;
 
     margin: 5px auto;
     padding: 5px;
-
-
-
 
     display: flex;
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
-    
-
 }
 
 .titulo{
 
     width: 100%;
     height: 300px;
-   
 
     display: flex;
 
@@ -121,53 +118,64 @@ body{
     width: 100%;
     height: 260px;
 
-
     display: flex;
 
     flex-direction: column;
 
     justify-content: center;
 
-
     align-items: flex-end;
 
     padding-right: 40px;
 
-
     text-align: left;
 
     font-family: "Elms Sans", sans-serif;
+
     margin-top: 0px;
-    gap: 10PX;
+
+    gap: 10px;
 
     color: white;
 
     margin-right: 100px;
 }
 
-.subtitulo p:first-child{
+.subtitulo a,
+.subtitulo a:visited,
+.subtitulo a:active{
 
+    color: yellow;
+
+    text-decoration: none;
+}
+
+.subtitulo a:hover{
+
+    color: yellow;
+}
+
+.subtitulo p:first-child{
 
     font-size: 23px;
 
     line-height: 1.5;
+
     width: fit-content;
 
     margin: 0;
 }
-  
 
 .subtitulo p:nth-child(2){
 
     font-size: 23px;
 
     line-height: 1.5;
+
     width: fit-content;
 
     margin: 0;
-
 }
-
 
 .subtitulo p:last-child{
 
@@ -178,5 +186,79 @@ body{
     width: fit-content;
 
     margin: 0;
+
     margin-right: 100px;
+}
+
+/* ================================= */
+/* RESPONSIVIDADE PARA CELULAR */
+/* ================================= */
+
+@media (max-width: 768px){
+
+    .containerOne{
+        padding: 10px;
+    }
+
+    .menu{
+
+        gap: 20px;
+
+        flex-wrap: wrap;
+    }
+
+    .menu a{
+
+        font-size: 18px;
+    }
+
+    .box{
+
+        width: 95%;
+
+        height: auto;
+
+        padding: 10px;
+    }
+
+    .titulo{
+
+        height: auto;
+    }
+
+    .titulo h1{
+
+        font-size: 70px;
+
+        text-align: center;
+    }
+
+    .titulo h2{
+
+        font-size: 30px;
+
+        text-align: center;
+    }
+
+    .subtitulo{
+
+        align-items: center;
+
+        padding-right: 0;
+
+        margin-right: 0;
+
+        text-align: center;
+    }
+
+    .subtitulo p:first-child,
+    .subtitulo p:nth-child(2),
+    .subtitulo p:last-child{
+
+        width: 100%;
+
+        font-size: 18px;
+
+        margin-right: 0;
+    }
 }

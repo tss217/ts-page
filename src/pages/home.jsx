@@ -22,19 +22,19 @@ export default function Home() {
 
                     <div className="subtitulo">
                         <p>
-                            REPOSITORIOS NO GITHUB:60<br />
+                            REPOSITORIOS NO <a href="https://github.com/tss217">GITHUB:60<br /></a>
                             CONEXÃO NO LINDIN: 600
                         </p>
 
                         <p>
                             SKILLS: PYTHON, C++, REACT <br />
-                            BACKEND, SQL, LUNUX, API
+                            BACKEND, SQL, LiNUX, API
                         </p>
 
                         <p>
                        
                             ENTRE EM CONTATO<br />
-                            PELO LINKDIN  
+                            PELO <a href="https://www.linkedin.com/in/thiago-s-silva-ts217/">LINKDIN </a>
                            
                         </p>
                     </div>
